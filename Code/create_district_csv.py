@@ -106,7 +106,7 @@ class DataMerger:
         df.to_csv(os.path.join(path, f"{district}.csv"))
 
 def main(province_name):
-    api = KoreaDataGovAPI(keys.API_URL, keys.API_SECOND_KEY)
+    api = KoreaDataGovAPI(keys.API_URL, keys.API_KEY)
     path = f'../{province_name}Data/HousingPrices/'
 
     housing_data_merge = DataMerger()

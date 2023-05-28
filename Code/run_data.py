@@ -8,9 +8,9 @@ import numpy as np
 province_name = "Seoul"
 
 # If you need to get data.
-# create_district_csv.main(province_name)
+create_district_csv.main(province_name)
 
-geo_df, code_df = create_geo_and_code_df.main(province_name)
+#geo_df, code_df = create_geo_and_code_df.main(province_name)
 
 # To create a map of Seoul Apartment Price
 '''
@@ -101,3 +101,4 @@ age_group = [
 ]
 create_maps.createHeatmap(city_df, age_group)
 '''
+# %%
